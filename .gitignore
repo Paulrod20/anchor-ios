@@ -1,0 +1,22 @@
+# Xcode
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+xcuserdata/
+*.xcscheme
+!default.xcscheme
+
+# Swift Package Manager
+.build/
+Package.resolved
+
+# Firebase - NEVER commit config secrets
+GoogleService-Info.plist
+
+# macOS
+.DS_Store
+
+# Secrets
+*.env
+Secrets.swift
